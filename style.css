@@ -1,0 +1,17 @@
+.first {
+    background-color:#ffffcb;
+    height: 100px;
+    width: 100px;
+}
+.second {
+    background-color:#ffcdff;
+    height: 200px;
+}
+.third {
+    background-color:#cdffff;
+    margin: 1em;
+}
+.fourth {
+    background-color: #aed8ae;
+    font-size: 2em;
+}
