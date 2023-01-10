@@ -1,0 +1,46 @@
+/* Elements */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* Utilities */
+.background-blue {
+    background-color: #3498db;
+}
+
+.white {
+    color: white;
+}
+
+.back-black {
+    background-color: black;
+}
+
+.text-large {
+    font-size: 1.5em;
+}
+
+.text-small{
+    font-size: 1em;
+}
+
+.img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+/* Homepage */
+
+/* Banner */
+
+#banner {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
