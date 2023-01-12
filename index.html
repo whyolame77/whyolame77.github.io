@@ -23,7 +23,7 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-0 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
               </li>
@@ -34,7 +34,7 @@
                 <a class="nav-link" href="work.html">Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -56,13 +56,55 @@
         <div class="row min-vh-100 py-5 px-5">
             <div class="col-6 white">
                 <h1>About me</h1>
-                <p class="text-large">Lorum ipsum dolor sit amet</p>
+                <p class="text-large bold">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia laoreet vulputate. Phasellus feugiat erat sed eros lobortis, sed pretium orci aliquet.
+                </p>
             </div>
             <div class="col-6 d-flex align-items-center justify-content-center">
-                <img src="images/guitar.png" width="50%" height="50%">
+                <img src="images/guitar.png" height="300px" width="300px">
             </div>
-            
         </div>
+    </div>
+    
+
+    <!-- Contact Me -->
+    <div class="container-fluid back-black white">
+      <div class="row min-vh-100 py-5 px-5">
+        <div class="col-6">
+          <table>
+            <tr>
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+            </tr>
+            <tr>
+              <td>Moctezuma</td>
+              <td>Francisco</td>
+              <td>Mexico</td>
+            </tr>
+          </table>
+          
+          <h1 style="margin: 2em" id="contact">Contact Me</h1>
+          
+          <a class="white" href="https://github.com/whyolame77/whyolame77.github.io.git">My link to github repo</a>
+          
+          <form action="submit-succ.html">
+            <label for="name">Your name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="address">Your email address:</label><br>
+            <input type="text" id="address" name="address"><br>
+            <label for="message">Your message:</label><br>
+            <input type="text" id="message" name="message" class="largTextbox"><br>
+            <input type="file" id="fileInput" name="filename" class="form-margin">
+            <input type="Submit" class="form-margin">
+          </form>
+        </div>
+      </div>
     </div>
 
     <!-- Bootstrap -->
